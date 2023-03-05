@@ -1,0 +1,52 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: steelblue;
+}
+body .container {
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+body .container label {
+  font-size: 25px;
+}
+body .container input {
+  margin-top: 20px;
+  width: 70%;
+}
+body .container .button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+body .container .button .btn {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: skyblue;
+  color: #fff;
+  font-size: 20px;
+}
+body .container .button p {
+  font-size: 20px;
+}
+body .container .button .display {
+  margin: 0 auto;
+  width: 80%;
+  height: 50%;
+  background-color: #563d7c;
+}/*# sourceMappingURL=styles.css.map */
